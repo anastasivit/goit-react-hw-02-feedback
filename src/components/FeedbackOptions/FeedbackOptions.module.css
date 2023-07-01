@@ -1,0 +1,29 @@
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.button--good {
+  background-color: #6ad14f;
+  color: #fff;
+}
+
+.button--neutral {
+  background-color: #f3da5d;
+  color: #000;
+}
+
+.button--bad {
+  background-color: #f34c4c;
+  color: #fff;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #8399f8;
+  color: #333333;
+}
