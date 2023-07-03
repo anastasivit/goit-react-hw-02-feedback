@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import styles from './FeedbackWidget.module.css';
+import Notification from './Notification';
 
 class FeedbackWidget extends Component {
   static propTypes = {
@@ -57,13 +58,5 @@ class FeedbackWidget extends Component {
     );
   }
 }
-
-const Notification = ({ message }) => (
-  <p className={styles.notification}>{message}</p>
-);
-
-Notification.propTypes = {
-  message: PropTypes.string.isRequired,
-};
 
 export default FeedbackWidget;
